@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    color:blue;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color:blue;
+  }
+
+  .link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .myBox{
+    position: relative;
+    width: 210px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+.myImage {
+  width: 200px;
+  height: 200px;
+}
+
+.lines{
+  width: 100%;
+  bottom: 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  vertical-align: bottom;
+}
